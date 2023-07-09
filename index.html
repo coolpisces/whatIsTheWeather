@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What's the weather?</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="#">
+</head>
+
+<body>
+
+    <div class="container">
+        <h2 id="title">Weather Condition</h2>
+        <form id="form">
+            <input type="text" id="city" placeholder="Please type a city name...">
+            <button class="cityButton">What's the weather?</button>
+        </form>
+        <div class="description">
+            <div class="icon" id="icon">
+                <img src="" alt="Weather icon">
+            </div>
+            <h1 id="degree">12 C</h1>
+            <div class="weatherProperty">
+                <div id="feeling">Feels Like: 11</div>
+                <div id="humidity">Humidity: %62</div>
+                <div id="wind">Wind: 2.87 m/s</div>
+            </div>
+        </div>
+        <div class="error"></div>
+    </div>
+
+
+
+    <script src="https://kit.fontawesome.com/2ed001a2f5.js" crossorigin="anonymous"></script>
+    <script src="myScript.js"></script>
+</body>
+
+</html>
